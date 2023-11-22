@@ -1,1 +1,36 @@
 
+ - Todo
+Longest Common Substring
+Minimum number of insertion and deletion to convert string a into string b.
+Minimum number of deleteion in a string to make palindrome
+Minimum number of insertion in a string to make palindrome
+Sequence pattern matching
+
+- Done
+Longest common subsequence
+Longest palindromic subsequence
+Shortest common supersequence
+Longest Repeating Subsequence->gfg
+
+- similar
+2014. Longest Subsequence Repeated k Times->leetcode
+sequence pattern matching
+Edit distance
+395. Longest Substring with At Least K Repeating Characters
+
+
+For DP overview
+https://iq.opengenus.org/list-of-dynamic-programming-problems/
+
+***********************************************************************
+***********************************************************************
+
+- Partition DP
+
+MCM
+Printing MCM
+Evaluate expression to true/ Boolean parenthesization
+min/max value of an expression
+palindrome partitioning
+scrambled egg
+egg dropping problem
