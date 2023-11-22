@@ -1,4 +1,5 @@
 -- Reverse a linkedlist
+-- merge sort in singly linked list
 
 -- slow and fast pointer approach
 [Take care of the base cases and the condition in while loop]
