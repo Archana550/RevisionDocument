@@ -1,1 +1,19 @@
 -- Reverse a linkedlist
+
+-- slow and fast pointer approach
+ public static Node<Integer> midPoint(Node<Integer> head) {
+        //Your code goes here
+      
+        if(head==null )return null;
+        if(head.next==null) return head;
+
+          Node<Integer> slow=head;
+        Node<Integer> fast = head.next;
+        
+        while( fast!=null&& fast.next!=null ){
+            slow=slow.next;
+            fast= fast.next.next;
+        }
+
+        return slow;
+    }
