@@ -1,6 +1,7 @@
 -- Reverse a linkedlist
 
 -- slow and fast pointer approach
+[Take care of the base cases and the condition in while loop]
  public static Node<Integer> midPoint(Node<Integer> head) {
         //Your code goes here
       
