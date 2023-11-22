@@ -18,3 +18,56 @@
 
         return slow;
     }
+
+-- Merge two sorted linked list
+
+[Take care of the base cases]
+    
+    public static Node<Integer> mergeTwoSorteds(Node<Integer> head1, Node<Integer> head2) {
+        //Your code goes here
+        if(head1==null&& head2==null)return null;
+        if(head1==null)return head2;
+        if(head2==null)return head1;
+        Node<Integer> res=null;
+        Node<Integer> tail= null;
+
+        Node<Integer> temp1= head1;
+        Node<Integer> temp2 = head2;
+
+        while(temp1!=null && temp2!=null){
+            if(temp1.data<=temp2.data){
+                if(res==null){
+                    res=new Node<Integer>(temp1.data);
+                    tail= res;
+                   // tail= tail.next;
+                }else{
+                    tail.next = new Node(temp1.data);
+                    tail= tail.next;
+                }
+                temp1= temp1.next;
+            }else{
+
+                if(res==null){
+                    res=new Node<Integer>(temp2.data);
+                    tail= res;
+                   // tail= tail.next;
+                }else{
+                    tail.next = new Node(temp2.data);
+                    tail= tail.next;
+                }
+                temp2= temp2.next;
+
+            }
+        }
+
+       if(temp1!=null){
+            tail.next=temp1;
+        }
+        if(temp2!=null){
+            tail.next = temp2;
+        }
+
+        return res;
+    }
+
+}
