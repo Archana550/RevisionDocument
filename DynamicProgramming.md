@@ -8,3 +8,6 @@ https://leetcode.com/problems/house-robber/submissions/1104801613/?envType=study
 
 **word break**
 https://leetcode.com/problems/word-break/submissions/1104827126/?envType=study-plan-v2&envId=top-interview-150
+
+**Longest increasing subsequence**
+https://leetcode.com/problems/longest-increasing-subsequence/submissions/1104917823/?envType=study-plan-v2&envId=top-interview-150
