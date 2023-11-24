@@ -1,3 +1,6 @@
+**Kumar K -Hashing Currated questions**
+https://www.desiqna.in/4678/best-roadmap-prepare-hashing-coding-interviews-kumar-desiqna
+
 **Maximum distance between two occurrance of same element-IMP**
 https://www.geeksforgeeks.org/maximum-distance-two-occurrences-element-array/
 
