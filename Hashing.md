@@ -12,3 +12,7 @@ https://leetcode.com/problems/first-unique-character-in-a-string/description/
 
 **Find common characters**
 https://leetcode.com/problems/find-common-characters/
+
+
+**Pairs with given sum**
+https://www.geeksforgeeks.org/count-pairs-with-given-sum/
