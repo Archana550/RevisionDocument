@@ -14,3 +14,6 @@ https://leetcode.com/problems/longest-increasing-subsequence/submissions/1104917
 
 **coin change**
 https://leetcode.com/problems/coin-change/?envType=study-plan-v2&envId=top-interview-150
+
+**Longest Increasing Subsequence**
+https://leetcode.com/problems/longest-increasing-subsequence/submissions/1105435324/?envType=study-plan-v2&envId=top-interview-150
