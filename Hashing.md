@@ -17,8 +17,7 @@ https://leetcode.com/problems/first-unique-character-in-a-string/description/
 https://leetcode.com/problems/find-common-characters/
 
 
-**Pairs with given sum**
-https://www.geeksforgeeks.org/count-pairs-with-given-sum/
+[**Pairs with given sum**](https://www.geeksforgeeks.org/count-pairs-with-given-sum/)
 
 **Two Sum**
 https://leetcode.com/problems/two-sum/description/
