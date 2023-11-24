@@ -6,3 +6,6 @@ https://www.geeksforgeeks.org/check-given-array-contains-duplicate-elements-with
 
 **Sum of elements in array with frequencies greater then the number**
 https://www.geeksforgeeks.org/sum-of-elements-in-an-array-with-frequencies-greater-than-or-equal-to-that-element/
+
+**First unique character**
+https://leetcode.com/problems/first-unique-character-in-a-string/description/
