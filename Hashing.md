@@ -9,3 +9,6 @@ https://www.geeksforgeeks.org/sum-of-elements-in-an-array-with-frequencies-great
 
 **First unique character**
 https://leetcode.com/problems/first-unique-character-in-a-string/description/
+
+**Find common characters**
+https://leetcode.com/problems/find-common-characters/
