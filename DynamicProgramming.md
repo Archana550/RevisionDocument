@@ -20,3 +20,6 @@ https://leetcode.com/problems/longest-common-subsequence/
 
 **Matrix Chain multiplication**
 https://www.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
+
+**Minimum and maximum value of an expression**
+https://leetcode.com/discuss/general-discussion/1281494/minimum-and-maximum-values-of-an-expression-with-and
