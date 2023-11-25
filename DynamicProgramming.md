@@ -17,3 +17,6 @@ https://leetcode.com/problems/coin-change/?envType=study-plan-v2&envId=top-inter
 
 **Longest Common Subsequence**
 https://leetcode.com/problems/longest-common-subsequence/
+
+**Matrix Chain multiplication**
+https://www.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
