@@ -13,3 +13,6 @@ https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/
 
 **Single element in a sorted array**
 https://leetcode.com/problems/single-element-in-a-sorted-array/submissions/
+
+**Find Nth root of M**
+https://www.geeksforgeeks.org/problems/find-nth-root-of-m5843/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
