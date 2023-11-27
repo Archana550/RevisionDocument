@@ -24,6 +24,10 @@ https://www.geeksforgeeks.org/problems/rotation4723/1?itm_source=geeksforgeeks&i
 https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/
 
 
+**Searching in a nearly sorted array**
+- compare with the mid, mid-1 and mid+1 th elements and increment/decrement mid by 2.
+https://www.geeksforgeeks.org/search-almost-sorted-array/
+
 **Single element in a sorted array**
 https://leetcode.com/problems/single-element-in-a-sorted-array/submissions/
 
