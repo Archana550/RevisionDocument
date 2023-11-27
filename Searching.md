@@ -1,3 +1,6 @@
+**Binary Search**
+https://leetcode.com/problems/binary-search/submissions/
+
 Find a page of the book.
 Find the first occurance of true.
 Search the element in sorted array.
