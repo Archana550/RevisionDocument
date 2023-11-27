@@ -40,10 +40,11 @@
 - https://www.geeksforgeeks.org/floor-in-a-sorted-array/
 
 **Next alphabetical element**
-https://leetcode.com/problems/find-smallest-letter-greater-than-target/
+- similar to ceil problem
+- https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 
 **Find the position of element in infinite sorted array**
-https://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/
+- https://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/
 
 **Find Nth root of M**
 - https://www.geeksforgeeks.org/problems/find-nth-root-of-m5843/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
