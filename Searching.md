@@ -52,6 +52,8 @@
 - https://www.geeksforgeeks.org/find-index-first-1-sorted-array-0s-1s/
 
 **Find the index of 1st one in an infinite binary sorted array**
+- infinite sorted and
+- first occurrance combination
 - https://www.geeksforgeeks.org/find-index-first-1-infinite-sorted-array-0s-1s/
 
 **Find Nth root of M**
