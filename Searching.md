@@ -44,6 +44,8 @@
 - https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 
 **Find the position of element in infinite sorted array**
+- mark arr[0]=low and arr[1]= high and then low=high and high = high*2 till high<target.
+- this way we bound the target and then apply binary search.
 - https://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/
 
 **Find Nth root of M**
