@@ -33,5 +33,11 @@
 **Single element in a sorted array**
 - https://leetcode.com/problems/single-element-in-a-sorted-array/submissions/
 
+**Find ceil of an element in an array**
+- https://www.geeksforgeeks.org/ceil-in-a-sorted-array/
+
+**Find floor of an element in an array**
+- https://www.geeksforgeeks.org/floor-in-a-sorted-array/
+
 **Find Nth root of M**
 - https://www.geeksforgeeks.org/problems/find-nth-root-of-m5843/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
