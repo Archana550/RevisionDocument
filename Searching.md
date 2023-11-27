@@ -1,10 +1,11 @@
 **Binary Search**
-https://leetcode.com/problems/binary-search/submissions/
- mid= low + (high-low)/2;
-Find a page of the book.
-Find the first occurance of true.
-Search the element in sorted array.
-First and last occurance of sorted array(Leetcode 34)
+- https://leetcode.com/problems/binary-search/submissions/
+
+-  mid= low + (high-low)/2;
+- Find a page of the book.
+- Find the first occurance of true.
+- Search the element in sorted array.
+- First and last occurance of sorted array(Leetcode 34)
 
 **Find the first and last occurrence of an element in an array**
 - make two different functions for first and last occurance. Change the code of binary search a little accordingly.
@@ -27,7 +28,7 @@ First and last occurance of sorted array(Leetcode 34)
 
 **Searching in a nearly sorted array**
 - compare with the mid, mid-1 and mid+1 th elements and increment/decrement mid by 2.
-https://www.geeksforgeeks.org/search-almost-sorted-array/
+- https://www.geeksforgeeks.org/search-almost-sorted-array/
 
 **Single element in a sorted array**
 - https://leetcode.com/problems/single-element-in-a-sorted-array/submissions/
