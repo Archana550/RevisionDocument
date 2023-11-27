@@ -48,5 +48,8 @@
 - this way we bound the target and then apply binary search.
 - https://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/
 
+**Find the index of 1st one in a binary sorted array**
+https://www.geeksforgeeks.org/find-index-first-1-sorted-array-0s-1s/
+
 **Find Nth root of M**
 - https://www.geeksforgeeks.org/problems/find-nth-root-of-m5843/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
