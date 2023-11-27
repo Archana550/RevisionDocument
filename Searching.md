@@ -15,8 +15,9 @@ find the difference between first and last occurance
 https://www.geeksforgeeks.org/problems/number-of-occurrence2259/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
 
 **Find the rotation count in rotated sorted array**
-Number of rotation = index of minimum element
+-- Number of rotation = index of minimum element
 minimum index is smaller than left as well as right index element
+Compare the mid element with start and end. If start is greater than mid then first half is sorted and if mid is smaller than end then second half is sorted. Go towards the unsorted part.
 https://www.geeksforgeeks.org/problems/rotation4723/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
 
 **Search in rotated sorted array**
