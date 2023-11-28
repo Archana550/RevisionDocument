@@ -82,6 +82,7 @@
   - https://leetcode.com/problems/search-a-2d-matrix/
   
 **Allocate minimum number of pages**
+- https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1
 
 **Find Nth root of M**
 - https://www.geeksforgeeks.org/problems/find-nth-root-of-m5843/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
