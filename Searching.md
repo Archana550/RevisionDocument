@@ -1,7 +1,7 @@
 **Binary Search**
 - https://leetcode.com/problems/binary-search/submissions/
 
--  mid= low + (high-low)/2;
+-  mid= low + (high-low)/2;-> to prevent integer overflow.
 - Find a page of the book.
 - Find the first occurance of true.
 - Search the element in sorted array.
