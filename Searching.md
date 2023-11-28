@@ -75,7 +75,7 @@
 - https://www.geeksforgeeks.org/find-element-bitonic-array/
   
 - **Search an element in Bitonic Array**
-**Search in row wise and column wise sorted array [good question]**
+- **Search in row wise and column wise sorted array [good question]**
   -binary search on sorted matrix
   
 - **Allocate minimum number of pages**
