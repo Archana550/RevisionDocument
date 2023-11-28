@@ -77,6 +77,7 @@
 
 **Search in row wise and column wise sorted array [good question]**
   - binary search on sorted matrix
+  - start from top rigth corner
   - return when indexes goes out of bound
   - https://leetcode.com/problems/search-a-2d-matrix/
   
