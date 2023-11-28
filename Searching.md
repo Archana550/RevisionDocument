@@ -74,11 +74,14 @@
 - similar to peak element
 - https://www.geeksforgeeks.org/find-element-bitonic-array/
   
-- **Search an element in Bitonic Array**
-- **Search in row wise and column wise sorted array [good question]**
-  -binary search on sorted matrix
+
+**Search in row wise and column wise sorted array [good question]**
+  - binary search on sorted matrix
+  - https://leetcode.com/problems/search-a-2d-matrix/
   
 - **Allocate minimum number of pages**
 
 **Find Nth root of M**
 - https://www.geeksforgeeks.org/problems/find-nth-root-of-m5843/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
+
+-- **Search an element in Bitonic Array**
