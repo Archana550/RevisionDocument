@@ -60,7 +60,8 @@
 
 - **Minimum difference element in a sorted array**
 - **Binary search on answer concept**
-- **Peak element**
+ **Peak element**
+  - Binary search on answer concept
 - **Find maximum element in Bitonic Array**
 - **Search an element in Bitonic Array**
 - **Search in row wise and column wise sorted array**
