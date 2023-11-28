@@ -77,6 +77,7 @@
 
 **Search in row wise and column wise sorted array [good question]**
   - binary search on sorted matrix
+  - return when indexes goes out of bound
   - https://leetcode.com/problems/search-a-2d-matrix/
   
 **Allocate minimum number of pages**
