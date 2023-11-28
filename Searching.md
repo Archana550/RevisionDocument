@@ -59,7 +59,7 @@
 - https://www.geeksforgeeks.org/find-index-first-1-infinite-sorted-array-0s-1s/
 
 - **Minimum difference element in a sorted array**
-- **Binary search on answer concept**
+ **Binary search on answer concept**
  **Peak element**
   - Binary search on answer concept
   - from mid move towars the more promising side
@@ -68,6 +68,7 @@
   - if mid element is greater than mid+1 or mid-1 return mid element.
   - https://leetcode.com/problems/find-peak-element/
   - edge case id mid=0 or if mid=n-1 only compare with the next or prev element and return;
+
 **Find maximum element in Bitonic Array**
 - similar to peak element
 - https://www.geeksforgeeks.org/find-element-bitonic-array/
