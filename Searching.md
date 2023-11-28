@@ -65,6 +65,7 @@
   - from mid move towars the more promising side
   - our answer is the element which is geater than the left as well as the right side element.
   - so accordingly decide the more promising side and move on.
+  - if mid element is greater than mid+1 or mid-1 return mid element.
   - https://leetcode.com/problems/find-peak-element/
 - **Find maximum element in Bitonic Array**
 - **Search an element in Bitonic Array**
