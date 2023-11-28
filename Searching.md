@@ -58,5 +58,13 @@
 - first occurrance combination
 - https://www.geeksforgeeks.org/find-index-first-1-infinite-sorted-array-0s-1s/
 
+**Minimum difference element in a sorted array**
+**Binary search on answer concept**
+**Peak element**
+**Find maximum element in Bitonic Array**
+**Search an element in Bitonic Array**
+**Search in row wise and column wise sorted array**
+**Allocate minimum number of pages**
+
 **Find Nth root of M**
 - https://www.geeksforgeeks.org/problems/find-nth-root-of-m5843/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
