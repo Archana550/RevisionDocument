@@ -68,7 +68,10 @@
   - if mid element is greater than mid+1 or mid-1 return mid element.
   - https://leetcode.com/problems/find-peak-element/
   - edge case id mid=0 or if mid=n-1 only compare with the next or prev element and return;
-- **Find maximum element in Bitonic Array**
+**Find maximum element in Bitonic Array**
+- similar to peak element
+- https://www.geeksforgeeks.org/find-element-bitonic-array/
+  
 - **Search an element in Bitonic Array**
 - **Search in row wise and column wise sorted array**
 - **Allocate minimum number of pages**
