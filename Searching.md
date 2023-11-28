@@ -79,7 +79,7 @@
   - binary search on sorted matrix
   - https://leetcode.com/problems/search-a-2d-matrix/
   
-- **Allocate minimum number of pages**
+**Allocate minimum number of pages**
 
 **Find Nth root of M**
 - https://www.geeksforgeeks.org/problems/find-nth-root-of-m5843/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
