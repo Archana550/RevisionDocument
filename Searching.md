@@ -13,6 +13,8 @@
 
 **Number of Occurance**
 - find the difference between first and last occurance
+- write seperate codes for both first and last occurance, try if we can merge them if we want
+- only one answer, keep a flag and try to merge.
 - https://www.geeksforgeeks.org/problems/number-of-occurrence2259/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
 
 **Find the rotation count in rotated sorted array**
