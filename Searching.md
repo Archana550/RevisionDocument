@@ -59,7 +59,8 @@
 - https://www.geeksforgeeks.org/find-index-first-1-infinite-sorted-array-0s-1s/
 
 - **Minimum difference element in a sorted array**
- **Binary search on answer concept**
+- **Binary search on answer concept**
+  
  **Peak element**
   - Binary search on answer concept
   - from mid move towars the more promising side
