@@ -1,4 +1,4 @@
-- Balanced barenthesis
+- Balanced parenthesis
 https://leetcode.com/problems/valid-parentheses/solutions/4316750/java-easy-code/
 
 - Redundant brackets
@@ -11,6 +11,7 @@ https://leetcode.com/problems/valid-parentheses/solutions/4316750/java-easy-code
   
 **Nearest Smaller Element**
 - https://www.geeksforgeeks.org/next-smaller-element/
+- https://www.geeksforgeeks.org/problems/help-classmates--141631/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
 
 **Nearest Smaller to Left**
 -
