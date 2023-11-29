@@ -3,7 +3,10 @@ https://leetcode.com/problems/valid-parentheses/solutions/4316750/java-easy-code
 
 - Redundant brackets
 
-**Next Greater To Right | Next Largest Element**
+**Next Greater Element | Next Largest Element**
+- There will be three cases, if stack is empty, ans will be -1.
+- Case 2: Stack top is greater than input element, then ans will be st top
+- Case 3: St top is smaller than input element, than pop until we get something bigger.Take care of stack being empty here.
 - https://www.geeksforgeeks.org/next-greater-element/
   
 **Nearest Greater to Left**
