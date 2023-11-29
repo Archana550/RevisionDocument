@@ -20,7 +20,11 @@ https://leetcode.com/problems/valid-parentheses/solutions/4316750/java-easy-code
 **Nearest Smaller to Right**
 -
 **Stock Span Problem**
--
+- previous greater element ka index we need
+- make stack of Pair and store the element ans it's index.
+- at last just subtract i-index and we will get the answer.
+- https://practice.geeksforgeeks.org/problems/stock-span-problem-1587115621/1
+  
 **Maximum Area Histogram**
 -
 **Max Area Rectangle in binary matrix**
