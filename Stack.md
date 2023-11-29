@@ -10,7 +10,7 @@ https://leetcode.com/problems/valid-parentheses/solutions/4316750/java-easy-code
 - https://www.geeksforgeeks.org/next-greater-element/
   
 **Nearest Smaller Element**
--https://www.geeksforgeeks.org/next-smaller-element/
+- https://www.geeksforgeeks.org/next-smaller-element/
 
 **Nearest Smaller to Left**
 -
