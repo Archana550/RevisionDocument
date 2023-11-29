@@ -9,8 +9,9 @@ https://leetcode.com/problems/valid-parentheses/solutions/4316750/java-easy-code
 - Case 3: St top is smaller than input element, than pop until we get something bigger.Take care of stack being empty here.
 - https://www.geeksforgeeks.org/next-greater-element/
   
-**Nearest Greater to Left**
--
+**Nearest Smaller Element**
+-https://www.geeksforgeeks.org/next-smaller-element/
+
 **Nearest Smaller to Left**
 -
 **Nearest Smaller to Right**
