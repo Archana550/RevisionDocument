@@ -10,10 +10,10 @@ In all these three questions we have to detect a cycle and to detect a cycle we 
 
 
 **Number of Island**
-https://leetcode.com/problems/number-of-islands/submissions/?envType=study-plan-v2&envId=top-interview-150
+- https://leetcode.com/problems/number-of-islands/submissions/?envType=study-plan-v2&envId=top-interview-150
 
 **Clone Graph**
-https://leetcode.com/problems/clone-graph/submissions/?envType=study-plan-v2&envId=top-interview-150
+- https://leetcode.com/problems/clone-graph/submissions/?envType=study-plan-v2&envId=top-interview-150
 
 **Eulerian Path and Cycle**
-https://www.geeksforgeeks.org/eulerian-path-and-circuit/
+- https://www.geeksforgeeks.org/eulerian-path-and-circuit/
