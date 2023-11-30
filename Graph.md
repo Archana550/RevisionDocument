@@ -20,3 +20,6 @@ In all these three questions we have to detect a cycle and to detect a cycle we 
 
 **Sum of dependencies in a graph**
 - https://www.geeksforgeeks.org/problems/sum-of-dependencies-in-a-graph5311/1
+
+**Detect cycle using DSU**
+- https://www.geeksforgeeks.org/problems/detect-cycle-using-dsu/1
