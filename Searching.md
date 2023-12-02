@@ -7,6 +7,9 @@
 - Search the element in sorted array.
 - First and last occurance of sorted array(Leetcode 34)
 
+**Minimum difference element in sorted array**
+- https://www.youtube.com/watch?v=3RhGdmoF_ac&t=914s
+
 **Find the first and last occurrence of an element in an array**
 - make two different functions for first and last occurance. Change the code of binary search a little accordingly.
 - https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/submissions/
