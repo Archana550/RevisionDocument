@@ -1,3 +1,7 @@
+- https://leetcode.com/problems/remove-duplicate-letters/
+- Good question
+
+
 - Balanced parenthesis
 https://leetcode.com/problems/valid-parentheses/solutions/4316750/java-easy-code/
 
