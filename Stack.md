@@ -1,4 +1,5 @@
 - https://leetcode.com/problems/remove-duplicate-letters/
+- https://practice.geeksforgeeks.org/problems/nearest-smaller-tower--170647/1
 - Good question
 
 
