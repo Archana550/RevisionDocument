@@ -1,3 +1,6 @@
+**Implement stack using array**
+- https://www.codingninjas.com/studio/problems/stack-implementation-using-array_3210209?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf&leftPanelTabValue=SUBMISSION
+
 - https://leetcode.com/problems/remove-duplicate-letters/
 - https://practice.geeksforgeeks.org/problems/nearest-smaller-tower--170647/1
 - Good question
