@@ -1,7 +1,7 @@
 -- Reverse a linkedlist
 -- merge sort in singly linked list
 
-**LRU CACHE**
+**LRU (Least Recently Used) CACHE**
 - https://leetcode.com/problems/lru-cache/submissions/
 - Use a doubly linked list.
 - Use hashmap to store key and address;
