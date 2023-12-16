@@ -5,8 +5,10 @@
 - https://leetcode.com/problems/lru-cache/submissions/
 - Use a doubly linked list.
 - Use hashmap to store key and address;
--  add next to head
+- add next to head
 - get..remove and add to next to head.
+- remove the least recently used node, right before the tail while adding if capacity is reached.
+- and if aready present delete from there and insert again
 
 -- slow and fast pointer approach
 [Take care of the base cases and the condition in while loop]
