@@ -8,7 +8,10 @@
 - add next to head
 - get..remove and add to next to head.
 - remove the least recently used node, right before the tail while adding if capacity is reached.
-- and if aready present delete from there and insert again
+- and if already present delete from there and insert again
+
+**LFU CACHE(Least Frequently Used)**
+- https://leetcode.com/problems/lfu-cache/
 
 -- slow and fast pointer approach
 [Take care of the base cases and the condition in while loop]
