@@ -1,6 +1,13 @@
 -- Reverse a linkedlist
 -- merge sort in singly linked list
 
+**LRU CACHE**
+- https://leetcode.com/problems/lru-cache/submissions/
+- Use a doubly linked list.
+- Use hashmap to store key and address;
+-  add next to head
+- get..remove and add to next to head.
+
 -- slow and fast pointer approach
 [Take care of the base cases and the condition in while loop]
  public static Node<Integer> midPoint(Node<Integer> head) {
