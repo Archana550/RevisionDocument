@@ -3,10 +3,11 @@
 
 **LRU (Least Recently Used) CACHE**
 - https://leetcode.com/problems/lru-cache/submissions/
-- Use a doubly linked list.
-- Use hashmap to store key and address;
-- add next to head
-- get..remove and add to next to head.
+- Use a doubly linked list "class Node" and a hashmap<Integer, Node>
+- create two functions add and delete Node.
+- make sure to initialize the head, tail, capacity and create link between tail and head in capacity function.
+- In the addition function insert the key and Node to hashmap also .
+- In the remove function delete it from the HashMap also.
 - remove the least recently used node, right before the tail while adding if capacity is reached.
 - and if already present delete from there and insert again
 
