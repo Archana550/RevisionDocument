@@ -1,3 +1,6 @@
+**Painting fence algorithm**
+- https://www.youtube.com/watch?v=5eFh5CC-8KY
+
 https://leetcode.com/discuss/interview-question/1986802/Dynamic-Programming
 
 **climbing stairs**
