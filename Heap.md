@@ -2,7 +2,7 @@
 
 - Heap
 - Key operations-
-- getMin()
-- insert()
-- delete()-adjust()
-- (n/2-0)heapify.
+- getMin()-O(1)
+- insert()-O(logn)
+- delete()-adjust()-O(logn)
+- (n/2-0)heapify.-O(n)
