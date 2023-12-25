@@ -7,7 +7,8 @@
 - delete()-adjust()-O(logn)
 - (n/2-0)heapify.-O(n)
 
- ``` import java.util.* ;
+ ```java
+ import java.util.* ;
 import java.io.*; 
 
 public class Solution {
@@ -187,3 +188,31 @@ class MedianFinder {
  * obj.addNum(num);
  * double param_2 = obj.findMedian();
  */
+
+# Top k frequent elements
+```java
+class Solution {
+    public int[] topKFrequent(int[] nums, int k) {
+      
+        HashMap<Integer,Integer> map = new HashMap<Integer, Integer>();
+
+        for(int i : nums){
+            map.put(i, map.getOrDefault(i,0)+1);
+        }
+
+        PriorityQueue<Integer> pq = new PriorityQueue<>((a,b)->map.get(b) - map.get(a));
+        pq.addAll(map.keySet());
+
+        // putting the top k values in array
+        int[] res = new int[k];
+        for(int i = 0;i<k;i++){
+            res[i] = pq.poll();
+        }
+        return res;
+
+    }
+
+
+  
+}
+```
