@@ -28,7 +28,37 @@
 - https://www.geeksforgeeks.org/problems/rotation4723/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
 
 **Search in rotated sorted array**
+- Take care to check the soted pat first and then check with target.
 - https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/
+  ```java
+  class Solution {
+    public int search(int[] nums, int target) {
+        int low=0;
+        int high = nums.length-1;
+    int n = nums.length;
+        while(low<=high){
+            int mid = low + (high-low)/2;
+            if(nums[mid]==target){
+                return mid;
+            }else if(nums[mid]>=nums[low]){
+                if(target>=nums[low]&& target<nums[mid]){
+                    high = mid-1;
+                    
+                }else{
+                    low=mid+1;
+                }
+            }else{
+                if(target<=nums[high]&&target>nums[mid]){
+                    low=mid+1;
+                }else{
+                    high= mid-1;
+                }
+            }
+        }
+        return -1;
+    }
+}
+  ```
 
 
 **Searching in a nearly sorted array**
