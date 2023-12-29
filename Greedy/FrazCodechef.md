@@ -43,6 +43,7 @@ class Codechef
 # 3. Activity Selection Problem
 # x. Chef and his study plans
 # 4. Job Scheduling with Profit
+# x. Maximum meeting in one room gfg
 # 5. Save Konoha 
 # 6. Fractional Knapsack
 # 7. Polo the penguine and the test
