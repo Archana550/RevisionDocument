@@ -58,7 +58,7 @@
         return -1;
     }
 }
-  ```
+
 
 
 **Searching in a nearly sorted array**
@@ -108,7 +108,7 @@
 - https://www.geeksforgeeks.org/find-element-bitonic-array/
   
 
-**Search in row wise and column wise sorted array [good question]**
+**Search in row wise and column wise sorted matrix [good question]**
   - binary search on sorted matrix
   - start from top rigth corner
   - return when indexes goes out of bound
