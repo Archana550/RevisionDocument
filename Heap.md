@@ -94,10 +94,11 @@ public class Solution {
 
         return res;
     }
-}```
+}
+```
 
-
-**Maximum Sum Combination**
+# Maximum Sum Combination
+```java
 class Solution {
     
     static List<Integer> maxCombinations(int N, int c, int a[], int b[]) {
@@ -188,7 +189,7 @@ class MedianFinder {
  * obj.addNum(num);
  * double param_2 = obj.findMedian();
  */
-
+```
 # Top k frequent elements
 ```java
 class Solution {
@@ -219,7 +220,7 @@ class Solution {
 
 
 # Bucket Sort Approach - K Frequent element
-```
+```java
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
         HashMap<Integer,Integer> map = new HashMap<>();
