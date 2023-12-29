@@ -123,9 +123,9 @@
 - check if the mid element is answer by creating one extra function that checks mid times value is equal to m or not.
 - https://www.geeksforgeeks.org/problems/find-nth-root-of-m5843/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
 
- **Search an element in Bitonic Array**
- **Matrix median**
- **Find the elemetn that appeared once in a sorted array**
- **Median of two sorted arrays**
- **kth element of two sorted arrays**
- **Aggressive cows**
+ # Search an element in Bitonic Array
+ # Matrix median
+ # Find the elemetn that appeared once in a sorted array
+ # Median of two sorted arrays
+ # kth element of two sorted arrays
+ # Aggressive cows
