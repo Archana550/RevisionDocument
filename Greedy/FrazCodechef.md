@@ -41,6 +41,7 @@ class Codechef
 
 ```
 # 3. Activity Selection Problem
+# x. Chef and his study plans
 # 4. Job Scheduling with Profit
 # 5. Save Konoha 
 # 6. Fractional Knapsack
