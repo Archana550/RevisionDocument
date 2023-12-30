@@ -168,3 +168,47 @@ public class Solution {
         return high;
     }
 }
+```
+# Allocate Books
+- count number of students can be allocated with the mid values, and accordingly adjust mid
+```java
+public class Solution {
+    
+    public static int countStudents(ArrayList<Integer> arr, int mid){
+        
+        long countPages=0;
+        int numStudent=1;
+       
+        for(int i=0;i<arr.size();i++){
+            if(countPages+arr.get(i)<=mid){
+                countPages+=arr.get(i);
+            }else{
+                numStudent++;
+                countPages=arr.get(i);
+            }
+        }
+    return numStudent;
+    }
+    public int books(ArrayList<Integer> arr, int B) {
+        
+        int n = arr.size();
+        if(B>n)return -1;
+        int low = Collections.max(arr);
+        int high=0;
+        for(int i:arr){
+            high+=i;
+        }
+        
+        while(low<=high){
+            int mid = low + (high-low)/2;
+            int students=countStudents(arr, mid);
+            if(students>B){
+               low=mid+1;
+            }else{
+                high = mid-1;
+            }
+        }
+        return low;
+    }
+}
+```
