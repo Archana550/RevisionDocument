@@ -129,3 +129,42 @@
  # Median of two sorted arrays
  # kth element of two sorted arrays
  # Aggressive cows
+ - search space max-min element in array
+ - apply binarysearch, return high
+ - make function inside to check if mid value can the req answer or not
+```java
+ import java.util.*;
+public class Solution {
+    public static boolean func(int[]stalls,int dis, int cows){
+        int countcows = 1;
+        int prev = stalls[0];
+
+        for(int i=1;i<stalls.length;i++){
+            if((stalls[i]-prev)>=dis){
+                countcows++;
+                prev=stalls[i];
+            }
+            if(countcows>=cows)return true;
+        }
+        return false;
+    }
+    public static int aggressiveCows(int []stalls, int k) {
+        //    Write your code here.
+        Arrays.sort(stalls);
+        int n = stalls.length;
+        int low=1;
+        int high=stalls[n-1]-stalls[0];
+
+        while(low<=high){
+            int mid = low + (high-low)/2;
+
+            if(func(stalls,mid, k)==true){
+                low = mid+1;
+            }else{
+                high= mid-1;
+            }
+        }
+
+        return high;
+    }
+}
