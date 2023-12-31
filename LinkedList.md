@@ -1,3 +1,5 @@
+
+
 -- Reverse a linkedlist
 -- merge sort in singly linked list
 
@@ -132,5 +134,27 @@ public ListNode reverseList(ListNode head) {
 
         return slow;
 
+    }
+  ```
+
+  # Remove nth node from end of linked list
+
+  ```java
+   public ListNode removeNthFromEnd(ListNode head, int n) {
+        ListNode fast=head,slow=head;
+        while(n>0){
+            fast=fast.next;
+            n--;
+        }
+        //edge case
+        //if n==length of lkned list, then return head.next as new head
+     if (fast==null) return head.next;
+        while(fast.next!=null){
+            slow=slow.next;
+            fast=fast.next;
+        }
+
+        slow.next=slow.next.next;
+        return head;
     }
   ```
