@@ -85,3 +85,33 @@
     }
 
 }
+
+# Reverse a linked list(Iterative)
+```java
+ public ListNode reverseList(ListNode head) {
+        ListNode prev= null;
+        ListNode curr = head;
+
+        while(curr!=null){
+            ListNode next = curr.next;
+            curr.next=prev;
+            prev= curr;
+            curr= next;
+        }
+
+        return prev;
+    }
+```
+# Reverse a linked list (Recursive)
+
+```java
+public ListNode reverseList(ListNode head) {
+
+       if(head==null || head.next ==null)return head;
+       ListNode prev =null;
+       ListNode h2 = reverseList(head.next);
+       head.next.next = head;
+       head.next =prev;
+       return h2; 
+    }
+```
