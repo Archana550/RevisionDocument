@@ -158,3 +158,23 @@ public ListNode reverseList(ListNode head) {
         return head;
     }
   ```
+
+  # Linked List Cycle
+
+  ```java
+  public boolean hasCycle(ListNode head) {
+        ListNode fast=head, slow=head;
+        if(head==null || head.next==null) return false;
+
+        while(fast!=null&&fast.next!=null){
+            fast= fast.next.next;
+            slow=slow.next;
+            if(slow==fast){
+                return true;
+            }
+        }
+
+       
+        return false;
+    }
+  ```
