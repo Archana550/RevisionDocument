@@ -236,3 +236,37 @@ public void deleteNode(ListNode node) {
        // node=null;
     }
 ```
+
+# Detect the node where the cycle begins 
+
+```java
+ public ListNode detectCycle(ListNode head) {
+        ListNode slow= head;
+        ListNode fast = head;
+        int idx = -1;
+        boolean loopPresent=false;
+        if(head==null || head.next==null)return null;
+
+        while(fast!=null && fast.next!=null){
+            fast = fast.next.next;
+            slow= slow.next;
+            if(fast==slow){
+               
+                loopPresent=true;
+                 break;
+            }
+        }
+
+        if(loopPresent==false)return null;
+        fast=head;
+        ListNode res=head;
+        while(fast!=slow){
+            fast=fast.next;
+            slow=slow.next;
+            idx++;
+            res=fast;
+        }
+        return res;
+
+    }
+```
