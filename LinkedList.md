@@ -237,7 +237,7 @@ public void deleteNode(ListNode node) {
     }
 ```
 
-# Detect the node where the cycle begins 
+# Find the starting point of the loop in linked list 
 
 ```java
  public ListNode detectCycle(ListNode head) {
