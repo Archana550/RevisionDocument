@@ -217,3 +217,22 @@ public ListNode reverseList(ListNode head) {
     return dummyHead.next;
     }
   ```
+# Delete Node
+
+```java
+public void deleteNode(ListNode node) {
+        if(node==null) return;
+        if(node.next==null){
+            node=null;
+            return;
+        }
+    ListNode prev=null;
+        while(node.next!=null){
+            node.val = node.next.val;
+            prev=node;
+            node=node.next;
+        }
+        prev.next=null;
+       // node=null;
+    }
+```
