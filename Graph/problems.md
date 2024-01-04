@@ -29,3 +29,27 @@ class Solution {
         return newhead;
     }
 }
+```
+# DFS TRAVERSAL
+```java
+public void dfs(int j, ArrayList<ArrayList<Integer>> adj,int[] visited, ArrayList<Integer> ans){
+        visited[j]=1;
+        ans.add(j);
+        
+        for(int i: adj.get(j)){
+            if(visited[i]==0){
+                dfs(i,adj,visited,ans);
+            }
+        }
+    }
+    public ArrayList<Integer> dfsOfGraph(int V, ArrayList<ArrayList<Integer>> adj) {
+        // Code here
+        int visited[]= new int[V];
+        ArrayList<Integer> ans = new ArrayList<Integer>();
+        for(int i=0;i<V;i++){
+            if(visited[i]==0)
+            dfs(i,adj,visited,ans);
+        }
+        
+        return ans;
+    }
