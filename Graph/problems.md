@@ -53,3 +53,36 @@ public void dfs(int j, ArrayList<ArrayList<Integer>> adj,int[] visited, ArrayLis
         
         return ans;
     }
+
+```
+# BFS TRAVERSAL
+- take care of visited array
+```java
+ public ArrayList<Integer> bfsOfGraph(int V, ArrayList<ArrayList<Integer>> adj) {
+        // Code here
+        ArrayList<Integer> ans = new ArrayList<Integer>();
+        
+        Queue<Integer> q = new LinkedList<Integer>();
+        int vis[]= new int[V];
+        
+        q.add(0);
+        
+        while(!q.isEmpty()){
+            
+            int i=q.poll();
+            ans.add(i);
+            vis[i]=1;
+            
+            for(int j: adj.get(i)){
+                if(vis[j]==0){
+                    vis[j]=1;
+                    q.add(j);
+                }
+            }
+            
+        }
+        
+        return ans;
+        
+    }
+```
