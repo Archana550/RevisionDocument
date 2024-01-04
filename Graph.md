@@ -1,6 +1,6 @@
-**Prerequisite Tasks
-Course Schedule 1
-Course Schedule 2**
+- Prerequisite Tasks
+- Course Schedule 1
+- Course Schedule 2**
 https://leetcode.com/problems/course-schedule/description/?envType=study-plan-v2&envId=top-interview-150
 
 In all these three questions we have to detect a cycle and to detect a cycle we have two ways to traverse->
