@@ -13,7 +13,9 @@ TC DFS - O(N) + 2*E
 - DFS- on matrix
 - 
 # Topological Sort
+
   ![Uploading Screenshot (31).png…]()
+  - Topological sort only applied to  directed acyclic graph  (DAG) because it we can only order nodes linearly if there is no cycle.
 
 
   
