@@ -11,3 +11,9 @@ TC DFS - O(N) + 2*E
 
 - DFS- on list
 - DFS- on matrix
+- 
+# Topological Sort
+  ![Uploading Screenshot (31).png…]()
+
+
+  
