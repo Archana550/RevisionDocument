@@ -86,3 +86,57 @@ public void dfs(int j, ArrayList<ArrayList<Integer>> adj,int[] visited, ArrayLis
         
     }
 ```
+
+# CYCLE DETECTION USING BFS
+
+```java
+class Solution {
+    // Function to detect cycle in an undirected graph.
+     class Pair
+    {
+        int node;
+        int parent;
+        Pair(int x,int y)
+        {
+            this.node=x;
+            this.parent=y;
+        }
+    }
+    public boolean bfs(int v, ArrayList<ArrayList<Integer>> adj, boolean vis[]){
+        vis[v]= true;
+        Queue<Pair> q = new LinkedList<Pair>();
+        Pair p = new Pair(v,-1);
+        q.add(p);
+         while(!q.isEmpty()){
+            int node = q.peek().node;
+            int parent = q.peek().parent;
+            q.remove();
+            
+            for(int i: adj.get(node)){
+                if(vis[i]==false){
+                    vis[i]=true;
+                    q.add(new Pair(i, node));
+                }else if(i!=parent){
+                   return true;
+                }
+            }
+        }
+        return false;
+    }
+    public boolean isCycle(int V, ArrayList<ArrayList<Integer>> adj) {
+        // Code here
+       
+        
+        boolean vis[]= new boolean[V];
+       for(int i=0;i<V;i++){
+           if(!vis[i]){
+               if(bfs(i, adj, vis))return true;
+           }
+       }
+       return false;
+        
+       
+        
+    }
+}
+```
