@@ -217,6 +217,7 @@ class Solution {
 ```
 
 # Detect cycle in directed graph using bfs
+- bfs code and indegree calculation easy one.
 
 ```java
 //{ Driver Code Starts
