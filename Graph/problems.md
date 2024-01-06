@@ -293,3 +293,49 @@ class Solution {
     }
 }
 ```
+
+# Topological sort -bfs
+
+```java
+
+class Solution
+{
+    //Function to return list containing vertices in Topological order. 
+    static int[] topoSort(int V, ArrayList<ArrayList<Integer>> adj) 
+    {
+        // add your code here
+        
+        int topo[]= new int[V];
+        int p=0;
+        Queue<Integer> q = new LinkedList<Integer>();
+        int indegree[] = new int[V];
+        
+        for(int i=0;i<V;i++){
+            for(int k: adj.get(i)){
+                indegree[k]++;
+            }
+        }
+        
+        for(int i=0;i<V;i++){
+           if(indegree[i]==0){
+               q.add(i);
+           }
+        }
+        
+        while(!q.isEmpty()){
+            int node = q.poll();
+            
+            topo[p++]=node;
+            
+            for(int k: adj.get(node)){
+                indegree[k]--;
+                if(indegree[k]==0){
+                    q.add(k);
+                }
+            }
+        }
+        
+        return topo;
+    }
+}
+```
