@@ -339,3 +339,48 @@ class Solution
     }
 }
 ```
+# Topological sort dfs
+```java
+class Solution
+{
+    //Function to return list containing vertices in Topological order. 
+    
+    public static void dfstopo(int i, ArrayList<ArrayList<Integer>> adj, boolean vis[], Stack<Integer> st ){
+        
+            vis[i]= true;
+            
+            for(Integer t: adj.get(i)){
+                
+                if(vis[t]==false){
+                    //vis[t]= true;
+                    dfstopo(t, adj,vis,st);
+                }
+            }
+        st.push(i);
+        return;
+        
+    }
+    
+    static int[] topoSort(int V, ArrayList<ArrayList<Integer>> adj) 
+    {
+        // add your code here
+        
+        //ArrayList<Integer> topo= new ArrayList<Integer>();
+        boolean vis[]= new boolean[V];
+        Stack<Integer> st= new Stack<Integer>();
+        
+        for(int i=0;i<V;i++){
+            if(vis[i]==false)
+            dfstopo(i,adj,vis,st);
+        }
+        
+        int res[]= new int[V];
+        int k=0;
+        while(!st.isEmpty()){
+            res[k++]= st.peek();
+            st.pop();
+        }
+        return res;
+    }
+}
+```
