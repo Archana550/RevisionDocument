@@ -339,7 +339,7 @@ class Solution
     }
 }
 ```
-# Topological sort dfs
+# Topological sort dfs- stack
 ```java
 class Solution
 {
