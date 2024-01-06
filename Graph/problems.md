@@ -177,6 +177,7 @@ class Solution {
 ```
 
 # Cycle detection in directed graph using dfs
+- same as the dfs code just one extra visited array and backtrack it after returning so as to check if this is the result of this dfs search itself.
 
 ```java
 
