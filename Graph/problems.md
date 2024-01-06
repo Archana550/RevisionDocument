@@ -419,3 +419,53 @@ class Solution {
     }
 }
 ```
+
+# Bipartite BFS
+
+```java
+class Solution {
+
+    public boolean bfs(int src, int[][] graph, int color[]) {
+
+        Queue<Integer> q = new LinkedList<Integer>();
+        q.add(src);
+        color[src] = 1;
+        while (!q.isEmpty()) {
+            int top = q.poll();
+            // vis[top]=true;
+
+            for (int j = 0; j < graph[top].length; j++) {
+                int i = graph[top][j];
+                if (color[i] == color[top]) {
+                    return false;
+                } else if (color[i] == -1) {
+                    color[i] = (color[top] == 1) ? 2 : 1;
+                    q.add(i);
+                }
+
+            }
+        }
+
+        return true;
+    }
+
+    public boolean isBipartite(int[][] graph) {
+        int n = graph.length;
+        int m = graph[0].length;
+        int color[] = new int[n];
+        for (int i = 0; i < n; i++) {
+            color[i] = -1;
+        }
+
+        for (int i = 0; i < n; i++) {
+
+            if (color[i] == -1)
+                if (bfs(i, graph, color) == false)
+                    return false;
+
+        }
+        return true;
+
+    }
+}
+```
