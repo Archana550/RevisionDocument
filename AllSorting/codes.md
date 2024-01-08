@@ -5,10 +5,12 @@
 - no of rounds=n-1
 - number of iterations= n*(n-1)/2
 - swap each adjacent elemnet in one iteration if its greater than the next one.
+- ![bubblesort](https://github.com/Archana550/RevisionDocument/assets/51438542/78293d31-7f4a-4035-807e-a6187e4cf436)
 
 ```java
 class Solution
 {
+
     public static void swap(int arr[], int i, int j){
         int temp = arr[i];
         arr[i]= arr[j];
@@ -36,3 +38,8 @@ class Solution
 
 
 ```
+
+# Selection sort
+- select the element that is smallest and inset at first
+
+# Insertion Sort
