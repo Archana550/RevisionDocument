@@ -41,6 +41,7 @@ class Solution
 
 # Selection sort
 - select the element that is smallest and inset at first
+- ![selectionsort](https://github.com/Archana550/RevisionDocument/assets/51438542/f45b8cad-0224-49d0-b0e6-669419c60ddc)
 ```java
 
 class Solution
@@ -69,6 +70,7 @@ class Solution
 	      
 	       int temp=arr[minidx];
 	       arr[minidx]=arr[i];
+
 	       arr[i]= temp;
 	       
 	    }
@@ -76,3 +78,33 @@ class Solution
 }
 ```
 # Insertion Sort
+- heap adjust algorithm uses this.
+- insert the target element in it's right position by shifting other greater elements back.
+
+- ![insertionsort](https://github.com/Archana550/RevisionDocument/assets/51438542/e7507b30-b177-4aaa-ad0f-6faebc9880ef)
+
+```java
+
+class Solution
+{
+  static void insert(int arr[],int i)
+  {
+       // Your code here
+       int j=i-1;
+       int key = arr[i];
+       while(j>=0 && arr[j]>key){
+           arr[j+1]=arr[j];
+           j--;
+       }
+       arr[j+1]=key;
+       
+  }
+  //Function to sort the array using insertion sort algorithm.
+  public void insertionSort(int arr[], int n)
+  {
+      //code here
+      for(int i=1;i<n;i++){
+          insert(arr, i);
+      }
+  }
+}
